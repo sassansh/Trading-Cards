@@ -1,0 +1,17 @@
+.cardList {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.noCards {
+  padding: 173px 0;
+  font-size: 20px;
+}
+
+@media (max-width: 992px) {
+  .cardList {
+    justify-content: center;
+  }
+}

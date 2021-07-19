@@ -1,0 +1,13 @@
+.header {
+  padding: 20px;
+  text-align: center;
+  background: #638172;
+  color: white;
+  font-size: 30px;
+}
+
+@media (max-width: 992px) {
+  .header {
+    font-size: 3.5vw;
+  }
+}

@@ -102,3 +102,12 @@ dist
 
 # TernJS port file
 .tern-port
+
+# Other
+.DS_Store
+
+# react build folder
+client/build/
+
+# ignore packalge-lock, using yarn
+package-lock.json

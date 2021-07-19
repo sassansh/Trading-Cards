@@ -1,0 +1,40 @@
+.center {
+  text-align: center;
+}
+
+.controls {
+  background-color: #c7b082;
+  color: white;
+  padding: 12px 20px;
+  margin-top: 8px;
+  margin-right: 20px;
+  margin-bottom: 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 17.5%;
+}
+
+.searchBox {
+  background-color: #ede7dd;
+  padding: 14px 20px;
+  margin-top: 8px;
+  margin-right: 20px;
+  margin-bottom: 10px;
+  border-radius: 4px;
+  border-color: #c7b082;
+  width: 17.5%;
+}
+
+.active-control {
+  background-color: #8f7c55;
+}
+
+@media (max-width: 992px) {
+  .controls {
+    width: 100%;
+  }
+  .searchBox {
+    width: 100%;
+  }
+}

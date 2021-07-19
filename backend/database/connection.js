@@ -1,0 +1,16 @@
+import dotenv from "dotenv";
+import mongoose from "mongoose";
+
+dotenv.config();
+
+const connection = process.env.TRADING_CARDS_DB_URI;
+
+console.log(`Trying to connect to MongoDB Atlas (cloud)`);
+mongoose
+  .connect(connection, {
+    useNewUrlParser: true,
+    useUnifiedTopology: true,
+    useFindAndModify: false,
+  })
+  .then(() => console.log("Database Connected Successfully"))
+  .catch((err) => console.log(err));
